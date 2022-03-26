@@ -13,10 +13,16 @@
     "vue": "^2.6.11",
     "vue-loader": "^15.9.2",
     "vue-template-compiler": "^2.6.11",
-    "vue-turbolinks": "^2.1.0"
+    "vue-turbolinks": "^2.1.0",
+    "@snyk/protect": "latest"
   },
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
