@@ -65,7 +65,7 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 0.83.0', require: false
   gem 'rubocop-rails'
   gem 'simplecov', require: false
 end
