@@ -17,7 +17,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use HAML instead of ERB
-gem 'haml-rails', '~> 2.0'
+gem 'haml-rails', '~> 2.1', '>= 2.1.0'
 # Add Devise for authentication
 gem 'devise'
 # Use Omniauth to support additional login providers
